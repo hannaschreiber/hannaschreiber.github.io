@@ -17,21 +17,30 @@ Wenn du die Decke für ein vergangenes Jahr machst (also die Temperaturen weißt
 Für eine bessere Übersicht kannst du die Bereiche mit HTML und CSS zusammenschieben. Wir brauchen nur das Fenster mit JS.
 
 
+
 ![Bild Planungstool_Temperaturbereich-Farbname](/assets/Planungstool_Temperaturbereich-Farbname.JPG)
 
 Hier oben gibst du deine Temperaturschritte und die dazugehörigen Farben ein. Die Farben gehen entweder als HEX-Codes oder viele der Farben haben auch Namen, die der Browser verarbeiten kann. Welche Farbnamen es gibt, siehst du beispielsweise [hier](https://www.w3schools.com/tags/ref_colornames.asp).
+
+
 
 ![Bild Planungstool_Wertetabelle.JPG](/assets/Planungstool_Wertetabelle.JPG)
 
 Hier trägst du deine Wetterdaten ein. Ich habe meine von [wetterkontor.de](https://www.wetterkontor.de/), da konnte ich einfach die ganze Tabelle reinkopieren. Pass nur auf, dass du die Apostrophe zu Beginn und Ende deines Eintrags nicht überschreibst bzw. du sie dann neu hinschreibst. Sonst kann der Browser das nicht lesen.
 
+
+
 ![Bild Planungstool_Spalte-angeben.JPG](/assets/Planungstool_Spalte-angeben.JPG)
 
 In deiner Temperaturwertetabelle tauchen ja wahrscheinlich mehrere Werte für einen Tag auf: Tiefstwert, Höchstwert, Mittelwert. Jetzt kannst du angeben, aus welcher Spalte der Tabelle der Browswer sich die Werte nehmen soll. Da, wo die orange 2 steht, schreibst du die Nummer der Spalte rein. In meinem Fall stehen in Spalte 2 die Höchstwerte.
 
+
+
 ![Bild Planungstool_Funktion.JPG](/assets/Planungstool_Funktion.JPG)
 
 This is where the magic happens. (Ich habe keine Ahnung, wie, aber es klappt.) :-)
+
+
 
 ![Bild Planungstool_Farben.JPG](/assets/Planungstool_Farben.JPG)
 
