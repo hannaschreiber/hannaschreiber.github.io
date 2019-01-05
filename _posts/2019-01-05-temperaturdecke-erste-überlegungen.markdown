@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Temperaturdecke - erste Überlegungen"
+image: /assets/Farbkreis_Itten_1961.svg
 date:   2019-01-05 13:24:20 +0100
 categories: häkeln
 ---

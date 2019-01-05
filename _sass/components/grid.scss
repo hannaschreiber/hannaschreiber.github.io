@@ -8,4 +8,10 @@
       grid-template-columns: 1fr 1fr;
     }
   }
+
+  @media (min-width: $grid-max-width) {
+    &.-cols-33-33-33 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
 }

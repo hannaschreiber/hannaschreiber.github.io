@@ -1,3 +1,7 @@
+$device-m: 800px;
+$device-l: 1024px;
+$device-xl: 1200px;
+
 $color-1: #427cac;
 $color-2: desaturate($color-1, 25%);
 
@@ -5,12 +9,29 @@ $grid-size: 1rem;
 $grid-max-width: 35 * $grid-size;
 
 $element-line-height: 3 * $grid-size;
+@media (min-width: $device-xl) {
+  $element-line-height: 2 * $grid-size;
+}
 $element-height: 2.5 * $grid-size;
+@media (min-width: $device-xl) {
+  $element-height: 1.625 * $grid-size;
+}
+$element-border-width: .0625 * $grid-size;
+$element-border-radius: .25 * $grid-size;
 
-$layout-padding: 1.5 * $grid-size;
+$layout-padding: .5 * $grid-size;
+@media (min-width: $grid-max-width) {
+  $layout-padding: 1.5 * $grid-size;
+}
 
 $content-color: darken($color-2, 30%);
+@media (prefers-color-scheme: dark) {
+  $content-color: lighten($color-2, 30%);
+}
 $content-background-color: lighten($color-2, 30%);
+@media (prefers-color-scheme: dark) {
+  $content-color: darken($color-2, 30%);
+}
 
 $content-contrast-color: $content-background-color;
 $content-contrast-background-color: $content-color; 

@@ -9,9 +9,15 @@
   box-sizing: border-box;
 }
 
+.cs-index-content {
+  margin: 0 auto;
+  padding: (2 * $layout-padding) 0;
+  box-sizing: border-box;
+}
+
 .cs-page-footer { // on the bottom grid
   background-color: $content-contrast-background-color;
-  
+
   padding: $layout-padding;
   @media (min-width: $grid-max-width) {
     padding: $layout-padding calc((100% - #{$grid-max-width}) / 2);
