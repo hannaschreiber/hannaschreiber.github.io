@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="page">
+  <div class="_top">
+    {%- include header-small.html -%}
+  </div>
+  
+  <div class="_center cs-page-content">
+    <div class="text -h1">{{ page.title | escape }}</div>
+    {{ content }}
+  </div>
+  <div class="_bottom">
+    {%- include footer.html -%}
+  </div>
+</div>

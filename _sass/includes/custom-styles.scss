@@ -1,0 +1,30 @@
+.cs-page-header { // on the toolbar
+  border-bottom: 1px solid black;
+}
+
+.cs-page-content { // on the center region
+  max-width: $grid-max-width;
+  margin: 0 auto;
+  padding: 0 $layout-padding;
+  box-sizing: border-box;
+}
+
+.cs-page-footer { // on the bottom grid
+  background-color: $content-contrast-background-color;
+  
+  padding: $layout-padding;
+  @media (min-width: $grid-max-width) {
+    padding: $layout-padding calc((100% - #{$grid-max-width}) / 2);
+  }
+
+  * {
+    color: $content-contrast-color;
+  }
+}
+
+.cs-post-meta {
+  position: relative;
+  top: -$grid-size;
+  color: lighten($content-color, 30%);
+  font-size: $font-size-h5;
+}

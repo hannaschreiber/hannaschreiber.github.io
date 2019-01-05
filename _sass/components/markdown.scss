@@ -1,0 +1,24 @@
+.markdown {
+  p {
+    @extend .text;
+    
+    & + * {
+      margin: $layout-padding 0;
+    }
+  }
+
+  h2 {
+    font-family: $font-family-headlines;
+  }
+
+  img {
+    width: calc(100% + 2 * #{$layout-padding});
+    margin-left: - $layout-padding;
+
+    @media (min-width: $grid-max-width * 1.2) {
+      margin-left: -20%;
+      width: 140%;
+      max-width: calc(100vw - 20px);
+    }
+  }
+}

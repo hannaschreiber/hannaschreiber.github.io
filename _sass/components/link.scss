@@ -1,0 +1,11 @@
+$link-color: $content-color;
+
+.link {
+  color: $content-color;
+  text-decoration: none;
+  font-family: $font-family-content;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

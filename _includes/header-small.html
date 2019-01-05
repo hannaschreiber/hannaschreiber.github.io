@@ -1,0 +1,11 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
+<div class="toolbar cs-page-header">
+  <div class="_leftitems">
+    <a class="toolbar-link -h3" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+  </div>
+  <div class="_rightitems">
+    <a class="toolbar-link" href="{{ '/feed.xml' | relative_url }}">RSS</a>
+  </div>
+</div>

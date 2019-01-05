@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  padding: 0 $layout-padding;
+  grid-gap: $layout-padding;
+
+  @media (min-width: $grid-max-width) {
+    &.-cols-50-50 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

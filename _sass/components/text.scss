@@ -1,0 +1,20 @@
+$text-color: $content-color;
+
+.text {
+  color: $text-color;
+  line-height: 1.5;
+  font-family: $font-family-content;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+
+  &.-h1 {
+    margin-top: 2 * $layout-padding;
+    margin-bottom: $layout-padding;
+    line-height: 1.2;
+    font-family: $font-family-headlines;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-bold;
+    text-align: left;
+  }
+}

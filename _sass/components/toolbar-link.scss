@@ -1,0 +1,20 @@
+.toolbar-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: $element-height;
+  margin: (($element-line-height - $element-height) / 2) 0;
+
+  color: $content-color;
+  text-decoration: none;
+  font-family: $font-family-content;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.-h3 {
+    font-size: $font-size-h3;
+    font-weight: $font-weight-bold;
+  }
+}

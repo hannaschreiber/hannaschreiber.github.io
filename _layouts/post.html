@@ -1,0 +1,7 @@
+---
+layout: page
+---
+<div class="text cs-post-meta">{{page.date | date: "%d.%m.%Y"}}{%- if page.author -%}, von {{page.author}}{%- endif -%}</div>
+<div class="markdown" itemprop="articleBody">
+  {{ content }}
+</div>
