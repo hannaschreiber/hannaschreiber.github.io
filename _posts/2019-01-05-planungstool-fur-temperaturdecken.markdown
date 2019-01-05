@@ -26,7 +26,7 @@ Hier trägst du deine Wetterdaten ein. Ich habe meine von [wetterkontor.de](http
 
 ![Bild Planungstool_Spalte-angeben.JPG](/assets/Planungstool_Spalte-angeben.JPG)
 
-In deiner Temperaturwertetabelle tauchen ja wahrscheinlich mehrere Werte für einen Tag auf: Tiefstwert, Höchstwert, Mittelwert. Jetzt kannst du angeben, aus welcher Spalte der Tabelle der Browswer sich die Werte nehmen soll. Da, wo die orange 2 steht, schreibst du die Nummer der Spalte rein. In meinem Fall stehen in Spalte 2 die Höchstwerte.
+In deiner Temperaturwertetabelle tauchen ja wahrscheinlich mehrere Werte für einen Tag auf: Tiefstwert, Höchstwert, Mittelwert, vielleicht auch noch Niederschlag etc. Jetzt kannst du angeben, aus welcher Spalte der Tabelle der Browswer sich die Werte nehmen soll. Da, wo die orange 2 steht, schreibst du die Nummer der Spalte rein. Achtung, die erste Spalte (mit dem Datum) ist Spalte 0. Die erste Spalte neben dem Datum ist also Nummer 1 und so weiter. In meinem Fall stehen in Spalte 2 die Höchstwerte.
 
 ![Bild Planungstool_Funktion.JPG](/assets/Planungstool_Funktion.JPG)
 
@@ -36,4 +36,4 @@ This is where the magic happens. (Ich habe keine Ahnung, wie, aber es klappt.) :
 
 Und Bäääm! Dieses Muster wird die Decke dann haben, wenn sie fertig ist. 
 
-Du kannst deine Eintragungen speichern. Über den Link oben in der Browserzeile kommst du dann später wieder zu deiner Seite zurück. Wenn du dir mehrere verschiedene Farbschemen/Temperatureinteilungen/Jahre speichern willst, geht das nur mit einem Account bei Codepen. Sonst werden deine vorherigen Eintragungen immer wieder überschrieben.
+Du kannst deine Eintragungen speichern. Klick dafür ganz oben erst auf "Fork" (bedeutet, dass vom Original eine Kopie erstellt wird) und dann auf "Save" (die Kopie mit deine Änderungen wird gespeichert, das Original bleibt trotzdem noch erhalten). Über den Link oben in der Browserzeile kommst du dann später wieder zu deiner Seite zurück. Wenn du dir keine Links merken willst, kannst du dir auch einen kostenlosen Account für Codepen erstellen, dann kannst du "deine" Seiten verwalten.
