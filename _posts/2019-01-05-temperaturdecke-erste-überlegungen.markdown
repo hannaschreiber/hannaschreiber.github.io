@@ -56,7 +56,7 @@ Ich nehme für meine Decke die Höchsttemperatur. Die erscheint mir am aussagekr
 
 Nachdem ich diese Werte ins Planungstool eingetragen habe, kam folgendes Muster heraus. Jetzt juckt es mich um so mehr in den Fingern, endlich anzufangen. 
 
-*Bild Planungstool*
+![Planungstool, Temperaturdecke 1990](/assets/Temperaturdecke - Planungstool.JPG)
 
 
 
