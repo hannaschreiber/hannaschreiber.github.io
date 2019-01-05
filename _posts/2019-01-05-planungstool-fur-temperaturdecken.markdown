@@ -5,8 +5,6 @@ date: 2019-01-05 21:48:00 +0100
 categories: häkeln
 ---
 
-# Planungstool für Temperaturdecken
-
 Nachdem ich meinem Mann von meiner Idee, eine Temperaturdecke zu häkeln, vorgeschwärmt habe, kam er auf die Idee, ein Planungstool dafür zu bauen. Er hat Informatik studiert und er liebt es, sich solche Hilfen auszudenken. Das ganze nennt sich temperature heatmap und jeder kann es einsehen und benutzen.
 Wenn du die Decke für ein vergangenes Jahr machst (also die Temperaturen weißt), wird dir das fertige Streifenmuster der Decke angezeigt. Aber auch wenn du für das aktuelle Jahr häkelst, kannst du dir damit anschauen, welche Farben gut zusammenpassen.
 
