@@ -15,6 +15,8 @@ Aber weil ich ja viele, viele Arbeitsstunden da reinstecken werde und mich dann 
 … die Größe  
 … die Maschen
 
+Eine große Hilfe war mir bei meinen Überlegungen ein Planungstool, das mein lieber Informatiker-Mann mir gebastelt hat. Hier gibt’s weitere Infos dazu.
+
 
 ## Das Jahr
 
@@ -47,10 +49,15 @@ Hier in Mitteldeutschland, wo ich wohne, gibt es nur selten sehr tiefe Minusgrad
 21-24  
 25-28  
 29-32  
-&gt;32  
+&gt;32
 
 In den meisten Wetterarchiven findet man für jeden Tag mehrere Temperaturwerte: Die Tiefsttemperatur, die Höchsttemperatur und den Mittelwert. 
 Ich nehme für meine Decke die Höchsttemperatur. Die erscheint mir am aussagekräftigsten, denn der tiefste Wert wurde in der Regel mitten in der Nacht erreicht und beim Durchschnittswert ist ja auch die kühle Nacht reingerechnet.
+
+Nachdem ich diese Werte ins Planungstool eingetragen habe, kam folgendes Muster heraus. Jetzt juckt es mich um so mehr in den Fingern, endlich anzufangen. 
+
+*Bild Planungstool*
+
 
 
 ## Die Wolle
