@@ -2,8 +2,8 @@ $device-m: 800px;
 $device-l: 1024px;
 $device-xl: 1200px;
 
-$color-1: #427cac;
-$color-2: desaturate($color-1, 25%);
+$color-1: #fe9a00;
+$color-2: desaturate($color-1, 40%);
 
 $grid-size: 1rem;
 $grid-max-width: 35 * $grid-size;
@@ -24,13 +24,13 @@ $layout-padding: .5 * $grid-size;
   $layout-padding: 1.5 * $grid-size;
 }
 
-$content-color: darken($color-2, 30%);
+$content-color: darken($color-2, 45%);
 @media (prefers-color-scheme: dark) {
-  $content-color: lighten($color-2, 30%);
+  $content-color: lighten($color-2, 45%);
 }
-$content-background-color: lighten($color-2, 30%);
+$content-background-color: lighten($color-2, 45%);
 @media (prefers-color-scheme: dark) {
-  $content-color: darken($color-2, 30%);
+  $content-color: darken($color-2, 45%);
 }
 
 $content-contrast-color: $content-background-color;
